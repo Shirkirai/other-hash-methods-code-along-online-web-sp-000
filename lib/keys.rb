@@ -10,5 +10,6 @@ require 'pry'
 
 def get_the_keys(groceries)
   groceries.each do |type, value|
-    puts "#{type}:#{value}"#code your solution here!
+    puts "#{type}:#{value}"
+  end#code your solution here!
 end
